@@ -1,0 +1,11 @@
+.circle {
+width: 100px;
+height: 100px;
+background: #eca8ed;
+border-radius: 50%;
+position: fixed;
+top: 0;
+left: 0;
+--transformTime: 1s;
+transition: transform var(--transformTime) linear;
+}
